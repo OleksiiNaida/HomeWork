@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Work3 - Forms</title>
+</head>
+<body>
+   <header>
+      <h1>Form</h1>
+   </header>
+   <section>
+      <Form method="GET" action="#" name="our-forms">
+         <label>
+            <p><b>Ваше имя</b></p>
+            <input type="text" name="fname" placeholder="Введите имя">
+         </label>
+         <label>
+            <p><b>Ваша фамилия</b></p>
+            <input type="text" name="lname" placeholder="Введите фамилию">
+         </label>
+         <label>
+            <p><b>Ваш email</b></p>
+            <input type="email" name="email" placeholder="Введите email">
+         </label>
+         <label>
+            <p><b>Ваша дата рождения</b></p>
+            <input type="date" name="b-day" min="1920-01-01" max="2015-01-01" value="2015-01-01">
+         </label>
+         <label>
+            <p><b>Ваш телефон</b></p>
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Формат: 063-010-1010" title="Формат: 063-010-1010">
+         </label>
+         <div>
+            <h3>Выберите размер</h3>
+            <label>
+               <p>
+                  <input type="radio" name="size" value="xs">
+               <span><b>XS</b></span>
+               </p>
+            </label>
+            <label>
+               <p>
+                  <input type="radio" name="size" value="s">
+                  <span><b>S</b></span>
+               </p>
+            </label>
+            <label>
+               <p>
+                  <input type="radio" name="size" value="m" checked>
+                  <span><b>M</b></span>
+               </p>
+            </label>
+            <label>
+               <p>
+                  <input type="radio" name="size" value="l">
+                  <span><b>L</b></span>
+               </p>
+            </label>
+         </div>
+         <div>
+            <h3>Дополнительные опции</h3>
+            <label>
+               <p>
+                  <input type="checkbox" name="option" value="delivery">
+                  <span><b>Доставка</b></span>
+               </p>
+            </label>
+            <label>
+               <p>
+                  <input type="checkbox" name="option" value="Payment-by-card">
+                  <span><b>Оплата картой</b></span>
+               </p>
+            </label>
+            <label>
+               <p>
+                  <input type="checkbox" name="option" value="call-me-back" checked>
+                  <span><b>Перезвоните мне</b></span>
+               </p>
+            </label>
+         </div>
+         <div>
+            <h3>Выберите цвет</h3>
+            <select name="color" multiple title="Чтобы выбрать несколько элементов, зажмите Cntrl, далее выберите необходимые элементы">
+               <option value="red">Красный</option>
+               <option value="blue">Синий</option>
+               <option value="white" selected>Белый</option>
+               <option value="black">Черный</option>
+            </select>
+         </div>
+         <p>
+            <input type="submit" value="Отправить">
+         </p>
+      </Form>
+   </section>
+</body>
+</html>
