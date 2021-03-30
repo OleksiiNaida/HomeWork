@@ -1,0 +1,59 @@
+header {
+   background-color: #C4C4C4;
+   padding: 0px 50px;
+}
+
+section{
+   padding: 0px 50px;
+}
+
+h1 {
+   text-align: center;
+   color: #fff;
+   font-size: 48px;
+   line-height: 59px;
+   font-weight: 400;
+}
+
+h2{
+   font-size: 36px;
+   line-height: 44px;
+   text-align: center;
+   color: #000000;
+}
+
+h3{
+   font-size: 24px;
+   line-height: 29px;
+   color: #000;
+}
+
+p{
+   font-size: 14px;
+   line-height: 17px;
+   color: #000000;
+}
+
+.subtitle-purple{
+   color: #190452;
+}
+
+.align-right{
+   text-align: right;
+}
+
+.subtitle-red{
+   color: #9F1717;;
+}
+
+.align-centr{
+   text-align: center;
+}
+
+.subtile-green{
+   color: #1B5B05;
+}
+
+.align-right{
+   text-align: right;
+}
