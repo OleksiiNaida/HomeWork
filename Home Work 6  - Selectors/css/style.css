@@ -1,0 +1,169 @@
+body{
+   margin: 0;
+   color: #f9f9f9;
+}
+
+.vh{
+   height: 100vh;
+}
+
+.header-pad{
+   padding: 20px 0 20px 0;
+}
+
+li {
+   list-style-type: none;
+}
+
+h1, h2{
+   margin: 0;
+   cursor: default;
+}
+
+ul{
+   padding: 0;
+   margin: 0px;
+}
+
+ul>li{
+   height: 60px;
+   width: 800px;
+   margin: 0 auto;
+   background-color: #88839e;
+   transition: all 0.3s ease-in;
+}
+
+ul>li>label{
+   padding-left: 15px;
+}
+
+ul>li:nth-child(2n){
+   background-color: #7a7593;
+}
+
+ul>li:hover{
+   border-bottom: 2px solid white;
+   border-top: 2px solid white;
+   background-color: #625e77;
+}
+
+.btn{
+   border: none;
+   padding: 0;
+   width: 800px;
+   height: 65px;
+   transition: all 0.5s ease-in;
+}
+
+.btn:active{
+   background-color: #ff0;
+   color: aqua;
+}
+
+
+ul+button{
+   display: block;
+   margin: 0 auto;
+}
+
+li>label>input,span{
+   display: inline-block;
+   padding-top: 18px;
+   transition: all 0.5s ease-in;
+}
+
+li>label>span{
+   font-size: 20px;
+}
+
+.text-red{
+   color: #eb7e7f;
+}
+
+button.text-red>span{
+   color: #eb7e7f;
+}
+
+button.btn-pad>span{
+   font-size: 20px;
+   padding-top: 0px;
+}
+
+button>span::after{
+   content: " :)";
+}
+
+.back-color-black{
+   background-color: #4a4f56;
+}
+
+.back-color-gray{
+   background-color: #3b3f45;
+}
+
+.text-centr{
+   text-align: center;
+}
+
+.form-pad-top{
+   padding-top: 40px;
+}
+
+.list-pad-bot{
+   padding-bottom: 40px;
+}
+
+input[type=checkbox]:checked + span{
+   text-decoration: line-through;
+   color: #a3a0b5;
+}
+
+input[type=checkbox]:checked + span::after{
+   color: #a3a0b5;
+   text-decoration: line-through;
+}
+
+ul li{
+   position: relative;
+}
+
+input[type=checkbox] + span::after{
+   transition: all 0.5s ease-in;
+   position: absolute;
+   top: 37.5%;
+   margin-left: 5px;
+}
+
+.text-about-css::after{
+   content: "(for the next lessons about CSS)";
+   color: #b9c6d6;
+   font-size: 13px;
+}
+
+.text-manipulation-css::after{
+   content: "(for more CSS manipulations)";
+   color: #b9c6d6;
+   font-size: 13px;
+}
+
+.text-awesome::after{
+   content: "(becouse they are awesome)";
+   color: #b9c6d6;
+   font-size: 13px;
+}
+
+.text-disappear::after{
+   content: "(hm... they always disappear)";
+   color: #b9c6d6;
+   font-size: 13px;
+}
+
+.text-friends::after{
+   content: "(for my friens)";
+   color: #b9c6d6;
+   font-size: 13px;
+}
+
+
+
+
