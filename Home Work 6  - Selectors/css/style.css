@@ -113,7 +113,7 @@ button>span::after{
    padding-bottom: 40px;
 }
 
-input[type=checkbox]:checked + span{
+input[type=checkbox]:checked ~ span{
    text-decoration: line-through;
    color: #a3a0b5;
 }
@@ -123,47 +123,66 @@ input[type=checkbox]:checked + span::after{
    text-decoration: line-through;
 }
 
+input[type=checkbox]:checked + span::before{
+   color: #a3a0b5;
+   text-decoration: line-through;
+}
+
 ul li{
    position: relative;
 }
 
-input[type=checkbox] + span::after{
-   transition: all 0.5s ease-in;
+.style-text{
    position: absolute;
-   top: 37.5%;
+   top: 7%;
    margin-left: 5px;
 }
 
-.text-about-css::after{
-   content: "(for the next lessons about CSS)";
+.style-text{
+   transition: all 0.5s ease-in;
    color: #b9c6d6;
    font-size: 13px;
+}
+
+.text-about-css::after{
+   content: ")";
+}
+
+.text-about-css::before{
+   content: "(";
 }
 
 .text-manipulation-css::after{
-   content: "(for more CSS manipulations)";
-   color: #b9c6d6;
-   font-size: 13px;
+   content: ")";
+}
+
+.text-manipulation-css::before{
+   content: "(";
 }
 
 .text-awesome::after{
-   content: "(becouse they are awesome)";
-   color: #b9c6d6;
-   font-size: 13px;
+   content: ")";
+}
+
+.text-awesome::before{
+   content: "(";
 }
 
 .text-disappear::after{
-   content: "(hm... they always disappear)";
-   color: #b9c6d6;
-   font-size: 13px;
+   content: ")";
+}
+
+.text-disappear::before{
+   content: "(";
 }
 
 .text-friends::after{
-   content: "(for my friens)";
-   color: #b9c6d6;
-   font-size: 13px;
+   content: ")";
 }
 
+.text-friends::before{
+   content: "(";
+}
 
 
 
