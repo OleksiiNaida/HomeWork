@@ -46,6 +46,7 @@ header{
 .Weather-forecast ul{
    font-size: 0px;
    margin-bottom: 25px;
+   background: #fff;
 }
 
 .Weather-forecast ul>li{
