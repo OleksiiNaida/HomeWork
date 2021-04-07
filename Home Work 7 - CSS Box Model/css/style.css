@@ -1,0 +1,140 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   color: #fff;
+}
+
+body{
+   background-color: #3399cc;
+   border: 20px solid #2b81ac;
+   height: 100vh;
+   cursor: default;
+}
+
+header{
+   margin: 25px 0;
+}
+
+.cities-list>li>span:nth-child(1){
+   margin-bottom: 10px;
+}
+
+.cities-list>li>span>i:nth-child(1){
+   height: 18px;
+}
+
+.cities-list>li>span:nth-child(2){
+   opacity: 0.6;
+}
+
+/* .cities-list>li>span>i{
+   opacity: 0.7;
+} */
+
+.cities p{
+   font-size: 20px;
+}
+
+.container{
+   width: 100%;
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+.Weather-forecast ul{
+   font-size: 0px;
+   margin-bottom: 25px;
+}
+
+.Weather-forecast ul>li{
+   display: inline-block;
+   list-style-type: none;
+   text-align: center;
+   border: 2px solid #fff;
+   font-size: 24px;
+   font-weight: 400;
+   transition: all 0.3s ease-in;
+   position: relative;
+}
+
+.Weather-forecast ul>li>span{
+   display: block;
+}
+
+.Weather-forecast ul>li:hover{
+   opacity: 0.5;
+}
+
+.city-padding{
+   padding: 25px 0 20px 0;
+}
+
+
+.Weather-forecast .city-lisbon{
+   border-top: 4px solid #fff;
+   border-left: 4px solid #fff;;
+   background-color: #3399cc;
+   width: 50%;
+}
+
+.Weather-forecast .city-paris{
+   border-top: 4px solid #fff;
+   background-color: #33cccc;
+   width: 25%;
+}
+
+.Weather-forecast .city-belgrade{
+   border-top: 4px solid #fff;
+   border-right: 4px solid #fff;
+   background-color: #996699;
+   width: 25%;
+}
+
+.Weather-forecast .city-moscow{
+   border-left: 4px solid #fff;
+   background-color: #c24747;
+   width: 25%;
+}
+
+.Weather-forecast .city-tel-aviv{
+   background-color: #e2674a;
+   width: 25%;
+}
+
+.Weather-forecast .city-cair{
+   background-color: #ffcc66;
+   width: 25%;
+}
+
+.Weather-forecast .city-new-york{
+   border-right: 4px solid #fff;
+   background-color: #99cc99;
+   width: 25%;
+}
+
+.Weather-forecast .city-new-delhi{
+   border-left: 4px solid #fff;
+   background-color: #669999;
+   width: 25%;
+}
+
+.Weather-forecast .city-san-francisko{
+   background-color: #cc6699;
+   width: 50%;
+}
+
+.Weather-forecast .city-tokyo{
+   border-right: 4px solid #fff;
+   background-color: #339966;
+   width: 25%;
+}
+
+.Weather-forecast .city-sydney{
+   border-right: 4px solid #fff;
+   border-left: 4px solid #fff;
+   border-bottom: 4px solid #fff;
+   background-color: #666699;
+   width: 100%;
+}
