@@ -1,0 +1,273 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: sans-serif;
+}
+
+h1{
+   width: 223px;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2em;
+   margin: 48px 0px 16px 0px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.padding-block-top{
+   padding-top: 35px;
+}
+
+.wrapper{
+   max-width: 640px;
+   width: 100%;
+   background-color: #F4F4F4;
+   border-radius: 40px;
+   margin: 0 auto; 
+   min-height: 100vh;
+}
+
+.container{
+   max-width: 560px;
+   width: 100%;
+   background-color: #FFFFFF;
+   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+   border-radius: 8px;
+   margin: 0px 40px; 
+}
+
+.container header {
+   margin-top: 70px;
+}
+
+.logo{
+   padding: 35px 0px;
+   text-align: center;
+}
+
+.navigate{
+   padding: 16px 0px;
+   background: #444444;
+   border-radius: 0px 0px 8px 8px;
+   font-size: 16px;
+   line-height: 1.2em;
+   text-align: center;
+}
+
+.navigate a{
+   display: inline-block;
+   color: #FFFFFF;
+   margin-right: 24px;
+   transition: all 0.2s ease-in;
+}
+
+.navigate a:hover{
+   color: #beff11;
+   box-shadow: 0px 1px 0px #beff11;
+}
+
+.navigate a:last-child{
+   margin: 0;
+}
+
+.content-watch{
+   width: 248px;
+   position: relative;
+}
+
+.content-watch p{
+   font-size: 14px;
+   line-height: 1.4em;
+   text-align: start;
+   width: 228px;
+   margin-bottom: 27px;
+}
+
+.watch-link{
+   color: #1890FF;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 1.2em;
+   display: inline-block;
+}
+
+.about-watch-more{
+   text-align: center;
+   display: block;
+   color: #FFFFFF;
+   background-color: #1890FF;
+   border-radius: 10px;
+   font-size: 18px;
+   line-height: 50px;  
+   margin-top: 130px; 
+   transition: all 0.3s ease-in;
+}
+
+.about-watch-more:hover{
+   transform: scale(1.1);
+}
+
+.about-watch-flex{
+   display: flex;
+   justify-content: center;
+}
+
+.wrapper-padding{
+   padding: 50px 72px 70px 73px;
+}
+
+.flex-header-sale{
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+
+.flex-header-margin{
+   margin-bottom: 66px;
+}
+
+.flex-sale-apple{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   /* align-content: space-between; */
+}
+
+.flex-apple-item:nth-child(3){
+   padding-top: 38px;
+}
+
+.flex-apple-item:nth-child(4){
+   padding-top: 38px;
+}
+
+.apple-price{
+   color: #515759;
+   font-size: 12px;
+   line-height: 1.7em;
+}
+
+.btn-sale{
+   display: block;
+   margin-top: 12px;
+   background: #1890FF;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 2.5em;
+   text-align: center;
+   max-width: 56px;
+   width: 100%;
+}
+
+.btn-sale:hover{
+   animation: swing 1s ease;
+   animation-iteration-count: 1;
+}
+
+/* footer .footer-flex{
+   padding: 32px 80px 35px;
+} */
+
+.footer-flex{
+   display: flex;
+   justify-content: space-around;
+}
+
+footer .footer-flex{
+   padding: 32px 45px 36px 35px;
+}
+
+.us-title{
+   font-size: 18px;
+   line-height: 1.22em;
+   margin-bottom: 8px;
+}
+
+.folow-us p{
+   width: 158px;
+   margin-bottom: 16px;
+}
+
+.paragraph-us{
+   color: #515759;
+   font-size: 11px;
+   line-height: 1.81em;
+}
+
+.contact-us p{
+   width: 155px;
+   margin-bottom: 16px;
+}
+
+.flex-social-networks{
+   display: flex;
+   justify-content: space-between;
+   width: 120px;
+   align-items: baseline;
+}
+
+.icon-padding-right{
+   padding-right: 21px;
+}
+
+.flex-social-item{
+   flex: 1 0;
+}
+
+.us-tell{
+   color: #515759;
+   font-weight: 600;
+   font-size: 11px;
+   line-height: 1.81em;
+   display: block;
+   margin-bottom: 6px;
+}
+
+.us-mail{
+   color: #1890FF;
+   font-size: 11px;
+   line-height: 1.81em;
+}
+
+.padding-block-bottom{
+   padding-bottom: 24px;
+}
+
+@keyframes swing {
+   15% {
+      -webkit-transform: translateX(9px);
+      transform: translateX(9px);
+   }
+   30% {
+      -webkit-transform: translateX(-9px);
+      transform: translateX(-9px);
+   }
+   40% {
+      -webkit-transform: translateX(6px);
+      transform: translateX(6px);
+   }
+   50% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+   }
+   65% {
+      -webkit-transform: translateX(3px);
+      transform: translateX(3px);
+   }
+   100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+   }
+}
+
+
+
+
