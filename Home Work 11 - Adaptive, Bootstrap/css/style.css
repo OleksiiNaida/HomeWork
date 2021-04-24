@@ -1,0 +1,137 @@
+section {
+   padding: 15px 0;
+   background-color: #fff;
+}
+
+img{
+   max-width: 100%;
+   width: 100%;
+}
+
+h1{
+   color: #fff;
+}
+
+.d-flex{
+   display: flex;
+}
+
+.container{
+   padding: 15px;
+   margin: auto;
+}
+
+.back-color-grey{
+   background-color: #e0e8eb;
+}
+
+.row-indentation{
+   margin: -15px;
+   padding: 15px;
+}
+
+
+.col-indentation{
+   padding: 15px;
+}
+
+.cat-items{
+   background-color: #fff;
+   color: #000;
+   position: relative;
+}
+
+.cat-items h1{
+   margin: 10px;
+}
+
+.cat-items h2{
+   margin: 10px;
+}
+
+.cat-items p{
+   margin: 10px;
+}
+
+.text-width{
+   max-width: 80%;
+}
+
+.place-for-icon::after{
+   content: '';
+   padding-bottom: 20%;
+   display: block;
+}
+
+.back-norwegian-forest{
+   background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/bezprawnik/2018/02/pexels-photo-416138.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+
+.back-norwegian-forest::before{
+   content: '';
+   padding-top: 66.8%;
+   display: block;
+}
+
+.orange-text{
+   color: orange;
+}
+
+.absolute{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.absolute-icon{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.icon-cat{
+   max-width: 20%;
+   padding: 10px;
+}
+
+@media all and (min-width:992px){
+   .back-norwegian-forest::before{
+      content: '';
+      padding-top: 77%;
+      display: block;
+   }
+}
+
+@media all and (min-width:1200px){
+   .back-norwegian-forest::before{
+      content: '';
+      padding-top: 66.8%;
+      display: block;
+   }
+}
+
+@media all and (max-width:576px){
+   section{
+      padding: 0;
+   }
+}
+
+@media all and (max-width:380px){
+   h1{
+      font-size: 30px;
+   }
+   .text-width{
+      max-width: 100%;
+      font-size: 13px;
+   }
+}
+
+/* DZ 2 */
+.rectungle{
+   background-color: orange;
+   min-height: 50px;
+}
