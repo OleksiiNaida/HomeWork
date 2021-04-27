@@ -31,6 +31,7 @@ body{
    font-weight: normal;
    font-size: 16px;
    line-height: 1.2em;
+   background-color: #e0e8eb;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -46,118 +47,107 @@ img{
    max-width: 100%;
 }
 
-section{
-   padding: 15px 0;
-   background-color: #e0e8eb;
-}
-
 .white-text{
    color: orange;
 }
 
+.back-color-grey {
+   background-color: #e0e8eb;
+}
+
 .container{
-   width: 800px;
+   background-color: #e0e8eb;
+   width: 1000px;
    max-width: 100%;
    margin: 0 auto;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding: 15px;
+}
+
+.cat__content{
+   background-color: #fff;
+   padding-bottom: 30%;
+   height: 100%;
+   position: relative;
+}
+
+.cat__img_backGround{
+   height: 185px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.cat__info{
+   padding: 25px 20px;
 }
 
 .cats-flex{
    display: flex;
    flex-wrap: wrap;
-   /* justify-content: space-between; */
 }
 
 .cat-items{
-   flex: 0 0 33.3%;
-   background-color: #fff;
+   flex: 0 0 33.33%;
    color: #000;
-   position: relative;
-}
-
-.place-for-icon::after{
-   content: '';
-   padding-bottom: 20%;
-   display: block;
+   padding: 0 7px;
+   margin-bottom: 15px;
 }
 
 .cat-items:nth-child(1){
-   flex: 1 0 66.7%;
+   flex: 0 0 66.66%;
 }
 
 .cat-items:nth-child(1) p{
    max-width:80%;
 }
 
-
-/* .american-cat-size{
-   max-height: 170px;
-   max-width: 264.7px;
-} */
-
 .cat-items h1{
-   margin: 10px;
-}
+   margin-bottom: 10px;
+} 
 
 .cat-items h2{
-   margin: 10px;
+   margin-bottom: 10px;
 }
 
-.cat-items p{
-   margin: 10px;
-}
-
-.back-norwegian-forest{
-   background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/bezprawnik/2018/02/pexels-photo-416138.jpeg');
+.back-norwegian-forest .cat__content{
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   position: relative;
+   display: flex;
+   align-items: flex-end;
+   padding-bottom: 0;
 }
 
-.back-norwegian-forest::before{
-   content: '';
-   padding-top: 58%;
-   display: block;
-}
-
-.absolute{
-   bottom: 0;
-   left: 0;
-}
-
-.absolute-icon{
-   position: absolute;
-   bottom: 0;
-   left: 0;
-}
+.cutlet-img{
+   width: 100%;
+} 
 
 .icon-cat{
-   max-width: 20%;
-   padding: 10px;
+   max-width: 15%;
+   position: absolute;
+   left: 5%;
+   bottom: 3%;
 }
 
 /*Медиа запросы*/
 
 @media all and (max-width:1024px){
 
+   .cat__img_backGround {
+      height: 71%;
+   }
+
    .cat-items{
       flex: 0 0 50%;
    }
 
+   .cat__img{
+      height: 71%;
+   }
+
    .cat-items:nth-child(1){
       flex: 0 0 100%;
-   }
-
-   .american-cat-size{
-   max-height: 254.1px;
-   width: 100%;
-   }
-
-   .cutlet-img{
-      margin-top: 0.3%;
-      width: 100%;
+      height: 400px;
    }
 }
 
@@ -170,31 +160,22 @@ section{
    .cats-flex{
       display: flex;
       flex-direction: column;
-      /* justify-content: space-between; */
-   }
-   
-   .cat-items{
-      width: 100%;
-      text-align: center;
    }
 
-   .absolute-icon{
-      text-align: start;
-   }
-
-   .american-cat-size {
-      max-height: none;
-      padding-left: 0%;
-      max-width: 100%;
+   .cat-items:nth-child(1){
+      /* flex: 0 0 100%; */
+      height: 350px;
    }
 
    .cat-items:nth-child(1) p {
       max-width: 100%;
    }
 
-   .cutlet-img {
-      margin-bottom: 0%;
-      width: 100%;
-      margin-left: 0%;
+   .cat__img_backGround{
+      height: 250px;
+   }
+
+   .back-norwegian-forest .cat__content{
+      height: 350px;
    }
 }

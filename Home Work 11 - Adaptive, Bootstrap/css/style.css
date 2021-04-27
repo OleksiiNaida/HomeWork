@@ -26,19 +26,25 @@ h1{
 }
 
 .row-indentation{
-   margin: -15px;
-   padding: 15px;
+   margin: -7.5px;
+   padding: 7.5px;
 }
 
 
 .col-indentation{
-   padding: 15px;
+   padding: 7.5px;
+}
+
+.back-stretch .cat-items{
+   padding-bottom: 0;
 }
 
 .cat-items{
    background-color: #fff;
    color: #000;
    position: relative;
+   padding-bottom: 30%;
+   height: 100%;
 }
 
 .cat-items h1{
@@ -57,11 +63,11 @@ h1{
    max-width: 80%;
 }
 
-.place-for-icon::after{
+/* .place-for-icon::after{
    content: '';
    padding-bottom: 20%;
    display: block;
-}
+} */
 
 .back-norwegian-forest{
    background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/bezprawnik/2018/02/pexels-photo-416138.jpeg');
@@ -71,21 +77,32 @@ h1{
    position: relative;
 }
 
-.back-norwegian-forest::before{
+/* .back-norwegian-forest::before{
    content: '';
    padding-top: 66.8%;
    display: block;
-}
+} */
 
 .orange-text{
    color: orange;
 }
 
-.absolute{
+/* .back-stretch{
+   display: flex;
+   vertical-align: bottom;
+   align-items: stretch;
+} */
+
+.back-stretch .back-norwegian-forest{
+   display: flex;
+   align-items: flex-end;
+}
+
+/* .absolute{
    position: absolute;
    bottom: 0;
    left: 0;
-}
+} */
 
 .absolute-icon{
    position: absolute;
@@ -98,25 +115,35 @@ h1{
    padding: 10px;
 }
 
-@media all and (min-width:992px){
-   .back-norwegian-forest::before{
-      content: '';
-      padding-top: 77%;
-      display: block;
-   }
-}
-
 @media all and (min-width:1200px){
-   .back-norwegian-forest::before{
+   /* .back-norwegian-forest::before{
       content: '';
-      padding-top: 66.8%;
+      padding-top: 67.8%;
       display: block;
+   } */
+}
+
+@media all and (max-width:992px){
+   .img-height{
+      max-height: 55%;
+   }
+   .back-stretch .back-norwegian-forest{
+      min-height: 400px;
    }
 }
 
-@media all and (max-width:576px){
+@media all and (max-width:768px){
+   .american-cat-size{
+      max-height: 327px;
+   }
+}
+
+@media all and (max-width:576px){   
    section{
       padding: 0;
+   }
+   .back-stretch .back-norwegian-forest{
+      min-height: 300px;
    }
 }
 
