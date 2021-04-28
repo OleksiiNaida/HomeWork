@@ -67,7 +67,7 @@ body {
 
 .line {
   margin-top: 20px;
-  height: 2px;
+  height: 3px;
   background: radial-gradient(80.56% 80.56% at 50% 19.44%, #2F2F2F 0%, #141415 100%), #313131;
   max-width: 80%;
   margin-left: auto;
