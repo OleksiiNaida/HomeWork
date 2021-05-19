@@ -117,7 +117,7 @@ function lotteryNum(){
 
 lotteryNum();
 
-console.log(lotteryNum());
+// console.log(lotteryNum());
 // Сравнение результата .
 
 let yes = 0;
@@ -143,14 +143,19 @@ if(arrLn.indexOf(n6) != -1){
 
 
 //Результат лотереи 
-
-console.group('Результаты лотереи');
-console.log(`Числа что выпали: ${arrLn[0]}, ${arrLn[1]}, ${arrLn[2]}, ${arrLn[3]}, ${arrLn[4]}, ${arrLn[5]},`);
-console.log(`Числа что Вы ввели: ${n1} - ${arrLn.indexOf(n1) != -1 ? 'yes' : 'no'}, 
-                              ${n2} - ${arrLn.indexOf(n2) != -1 ? 'yes' : 'no'}, 
-                              ${n3} - ${arrLn.indexOf(n3) != -1 ? 'yes' : 'no'}, 
-                              ${n4} - ${arrLn.indexOf(n4) != -1 ? 'yes' : 'no'}, 
-                              ${n5} - ${arrLn.indexOf(n5) != -1 ? 'yes' : 'no'}, 
-                              ${n6} - ${arrLn.indexOf(n6) != -1 ? 'yes' : 'no'}`);
-console.log(`Результат ${yes}/6`);
-console.groupEnd();
+alert(`Результаты лотереи\nЧисла что выпали: ${arrLn[0]}, ${arrLn[1]}, ${arrLn[2]}, ${arrLn[3]}, ${arrLn[4]}, ${arrLn[5]}.\nЧисла что Вы ввели: ${n1} - ${arrLn.indexOf(n1) != -1 ? 'yes' : 'no'}, 
+                                    ${n2} - ${arrLn.indexOf(n2) != -1 ? 'yes' : 'no'}, 
+                                    ${n3} - ${arrLn.indexOf(n3) != -1 ? 'yes' : 'no'}, 
+                                    ${n4} - ${arrLn.indexOf(n4) != -1 ? 'yes' : 'no'}, 
+                                    ${n5} - ${arrLn.indexOf(n5) != -1 ? 'yes' : 'no'}, 
+                                    ${n6} - ${arrLn.indexOf(n6) != -1 ? 'yes' : 'no'}.\nРезультат ${yes}/6`);
+// console.group('Результаты лотереи');
+// console.log(`Числа что выпали: ${arrLn[0]}, ${arrLn[1]}, ${arrLn[2]}, ${arrLn[3]}, ${arrLn[4]}, ${arrLn[5]}`);
+// console.log(`Числа что Вы ввели: ${n1} - ${arrLn.indexOf(n1) != -1 ? 'yes' : 'no'}, 
+//                               ${n2} - ${arrLn.indexOf(n2) != -1 ? 'yes' : 'no'}, 
+//                               ${n3} - ${arrLn.indexOf(n3) != -1 ? 'yes' : 'no'}, 
+//                               ${n4} - ${arrLn.indexOf(n4) != -1 ? 'yes' : 'no'}, 
+//                               ${n5} - ${arrLn.indexOf(n5) != -1 ? 'yes' : 'no'}, 
+//                               ${n6} - ${arrLn.indexOf(n6) != -1 ? 'yes' : 'no'}`);
+// console.log(`Результат ${yes}/6`);
+// console.groupEnd();
