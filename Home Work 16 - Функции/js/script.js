@@ -141,19 +141,16 @@ if(arrLn.indexOf(n6) != -1){
    yes+=1;
 }
 
-// Вывод да и нет на против чисел которые совпали.
-
-
 
 //Результат лотереи 
 
 console.group('Результаты лотереи');
-console.log(`Числа что Вы ввели: ${n1}, ${n2}, ${n3}, ${n4}, ${n5}, ${n6},`);
-console.log(`Числа что выпали: ${arrLn[0]} - ${arrLn.indexOf(n1) != -1 ? 'yes' : 'no'}, 
-                              ${arrLn[1]} - ${arrLn.indexOf(n2) != -1 ? 'yes' : 'no'}, 
-                              ${arrLn[2]} - ${arrLn.indexOf(n3) != -1 ? 'yes' : 'no'}, 
-                              ${arrLn[3]} - ${arrLn.indexOf(n4) != -1 ? 'yes' : 'no'}, 
-                              ${arrLn[4]} - ${arrLn.indexOf(n5) != -1 ? 'yes' : 'no'}, 
-                              ${arrLn[5]} - ${arrLn.indexOf(n6) != -1 ? 'yes' : 'no'}`);
+console.log(`Числа что выпали: ${arrLn[0]}, ${arrLn[1]}, ${arrLn[2]}, ${arrLn[3]}, ${arrLn[4]}, ${arrLn[5]},`);
+console.log(`Числа что Вы ввели: ${n1} - ${arrLn.indexOf(n1) != -1 ? 'yes' : 'no'}, 
+                              ${n2} - ${arrLn.indexOf(n2) != -1 ? 'yes' : 'no'}, 
+                              ${n3} - ${arrLn.indexOf(n3) != -1 ? 'yes' : 'no'}, 
+                              ${n4} - ${arrLn.indexOf(n4) != -1 ? 'yes' : 'no'}, 
+                              ${n5} - ${arrLn.indexOf(n5) != -1 ? 'yes' : 'no'}, 
+                              ${n6} - ${arrLn.indexOf(n6) != -1 ? 'yes' : 'no'}`);
 console.log(`Результат ${yes}/6`);
 console.groupEnd();
