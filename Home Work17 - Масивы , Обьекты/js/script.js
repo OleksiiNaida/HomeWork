@@ -38,37 +38,28 @@
 
 //Задача 3 .
 
-// let matrixA = [
-//    [4, 5, 13],
-//    [-5, 0, 4],
-//    [12, -3, 12],
-// ]
+let matrixA = [
+   [4, 5, 13],
+   [-5, 0, 4],
+   [12, -3, 12],
+]
 
-// let matrixB = [
-//    [5, 8, 0],
-//    [87, 65, 7],
-//    [-50, 24, 43],
-// ]
+let matrixB = [
+   [5, 8, 0],
+   [87, 65, 7],
+   [-50, 24, 43],
+]
 
-// let matrixResult = [
-//    [],
-//    [],
-//    [],
-// ]
+let matrixResult = [];
 
-// for(let i = 0; i < matrixA.length; i++){
-//    for(let j = 0; j < matrixA[i].length; j++){
-//       matrixResult [i][j] = matrixA[i][j] + matrixB[i][j];
-//    }
-//    for(let f = 0; f < matrixA[i].length; f++){
-//       matrixResult [i][f] = matrixA[i][f] + matrixB[i][f];
-//    }
-//    for(let l = 0; l < matrixA[i].length; l++){
-//       matrixResult [i][l] = matrixA[i][l] + matrixB[i][l];
-//    }
-// }
+for(let i = 0; i < matrixA.length; i++){
+   matrixResult[i] = [];
+   for(let j = 0; j < matrixA[i].length; j++){
+      matrixResult [i][j] = matrixA[i][j] + matrixB[i][j];
+   }
+}
 
-// console.log(matrixResult);
+console.log(matrixResult);
 
 
 
@@ -119,32 +110,32 @@
 
 //Задача 2 .
 
-let films = [ 
-{
-	title: 'Joker',
-	rating: 8.1,
-	premier: true,
-} ,
-{
-	title: 'Iron Man',
-	rating: 7,
-	premier: true,
-} ,
-{
-	title: 'Thor',
-	rating: 7.5,
-	premier: false,
-} ,
-{
-	title: 'Black Panther',
-	rating: 8.2,
-	premier: true,
-} ,
-{
-	title: 'Hulk',
-	rating: 8.5,
-	premier: false,
-} ]
+// let films = [ 
+// {
+// 	title: 'Joker',
+// 	rating: 8.1,
+// 	premier: true,
+// } ,
+// {
+// 	title: 'Iron Man',
+// 	rating: 7,
+// 	premier: true,
+// } ,
+// {
+// 	title: 'Thor',
+// 	rating: 7.5,
+// 	premier: false,
+// } ,
+// {
+// 	title: 'Black Panther',
+// 	rating: 8.2,
+// 	premier: true,
+// } ,
+// {
+// 	title: 'Hulk',
+// 	rating: 8.5,
+// 	premier: false,
+// } ]
 
 //1
 
@@ -172,11 +163,11 @@ let films = [
 
 //3
 
-function rating(filmsRating){
-   for(let i = 0; i < filmsRating.length; i++){
-      if(filmsRating[i]['rating'] >= 8){
-         console.log(`Рейтинг Выше восьми: ${filmsRating[i]['title']} - ${filmsRating[i]['rating']}`);
-      }
-   } 
-}
-rating(films);
+// function rating(filmsRating){
+//    for(let i = 0; i < filmsRating.length; i++){
+//       if(filmsRating[i]['rating'] >= 8){
+//          console.log(`Рейтинг Выше восьми: ${filmsRating[i]['title']} - ${filmsRating[i]['rating']}`);
+//       }
+//    } 
+// }
+// rating(films);
