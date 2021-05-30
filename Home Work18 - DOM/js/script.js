@@ -43,7 +43,7 @@ for(let i = 0; i < features.length; i ++){
    //Создаем титулку
    let featuresTitle = document.createElement('h2');
    featuresTitle.classList.add('features__title');
-   featuresTitle.setAttribute('id', 'featuresTitle')
+   // featuresTitle.setAttribute('id', 'featuresTitle')
    featuresTitle.innerText = features[i].title;
    newFeatures.appendChild(featuresTitle);
 
