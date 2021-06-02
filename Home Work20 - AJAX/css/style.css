@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+   margin: 0;
+}
+
+.header {
+   text-align: center;
+}
+.partners {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 25px;
+	padding: 0 15px;
+   justify-content: space-evenly;
+}
+
+.partners__item {
+   flex: 0 0 30%;
+   border: 1px solid #000;
+   margin-bottom: 30px;
+   padding: 10px;
+}
+
+.partners__text-bold{
+   font-weight: 600;
+   color: #000;
+}
+
+.partners__name {
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+.partners__company {
+   color: blueviolet;
+}
+
+.partners__city {
+   color: chartreuse;
+}
+
+.partners__phone {
+   color: coral;
+}
