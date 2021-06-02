@@ -4,7 +4,7 @@ let xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function (){
    if(xhr.readyState === 4){
       let infoAboutPerson = JSON.parse(xhr.responseText);
-      for(let i = 0; infoAboutPerson.length; i++){
+      for(let i = 0; i < infoAboutPerson.length; i++){
          // if(infoAboutPerson[i].id != undefined){
             partnersContent(infoAboutPerson[i].name, infoAboutPerson[i].company.name, infoAboutPerson[i].address.city, infoAboutPerson[i].phone);
          // }
